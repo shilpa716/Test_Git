@@ -27,7 +27,7 @@ public class open_naukri {
 		}
 		Thread.sleep(2000);
 		driver.switchTo().window(parent);
-		system.out.println("Closing");
+		System.out.println("Closing");
 		driver.close();
 	}
 
